@@ -13,6 +13,8 @@ margin: 0 auto;
 flex-direction: column;
 padding: 1rem;
 border: 1px solid hotpink;
+height: 1000px;
+max-height: 100%;
 }
 
 .container{
@@ -45,11 +47,42 @@ border: 1px solid hotpink;
     
     gap: 1rem;
     padding: 1rem;
+    
 }
 
 
 
+.img-container{
+    width: 600px ;
+    height: 800px;
+    border: 1px solid blue;
+    position: relative;
+    
+}
+.meme-img{
+  width: 600px;
+  height: 800px;
+
+}
+
+.text1 , .text2{
+    
+    
+  position: absolute;
+
+}
+
+.text1{
+    top:0 ;
+    left: 0;
 
 
+}
 
+.text2{
+    bottom:0 ;
+    left: 0;
+
+
+}
 
